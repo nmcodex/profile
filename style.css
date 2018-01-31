@@ -3,7 +3,6 @@ body {
   color: #364049;
   font-family: 'Rokkitt', serif;
   font-size: 18px;
-  line-height;
 }
 
 h1 {
@@ -26,6 +25,14 @@ ul {
 ul > li {
   display: inline-block;
   padding: 20px;
+}
+
+form {
+  padding: 0.6em;
+}
+
+fieldset {
+  margin-top: 1em;
 }
 
 /* CUSTOM CLASS */
@@ -75,6 +82,19 @@ ul > li {
   border-radius: 5px;
   display: inline-block;
   margin: 10px;
+  text-transform: capitalize;
+}
+
+.btn-grey{
+  background-color: rgb(150, 151, 152);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: 'Rokkitt', serif;
 }
 
 .card{
@@ -115,6 +135,9 @@ ul > li {
   text-align: center;
 }
 
+#sidebar:hover {
+    overflow: hidden;
+}
 #page-content {
   margin-left: 120px;
 }

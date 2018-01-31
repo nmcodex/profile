@@ -22,6 +22,11 @@
           </a>
         </li>
         <li>
+          <a href="#form">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+        <li>
           <a href="#footer">
             <i class="fa fa-life-ring"></i>
           </a>
@@ -95,6 +100,27 @@
               </tr>
             </tbody>
           </table>
+        </div>
+
+        <div class="card" id="form">
+          <h2>What do you want ?</h2>
+          <!-- Formulaire simple qui enverra une requête POST -->
+          <form action="" method="post">
+            <label for="POST-first_name">First name :</label>
+            <input id="POST-first_name" type="text" name="first_name">
+            <label for="POST-last_name">Last name :</label>
+            <input id="POST-last_name" type="text" name="last_name">
+            </br>
+            <fieldset>
+              <legend>What are you looking for ?</legend>
+              <div class="text-center">
+                <input type="radio" name="radio" id="radio"> <label for="radio">Money</label>
+                <input type="radio" name="radio" id="radio"> <label for="radio">A job</label>
+                <input type="radio" name="radio" id="radio"> <label for="radio">A license to kill</label>
+              </div>
+            </fieldset>
+            <br><input class="btn-grey" type="submit" value="Enregistrer">
+          </form>
         </div>
 
         <div class="card" id="footer">
